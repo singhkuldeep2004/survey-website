@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>/* Account Page */
+        body {
+          font-family: 'Arial', sans-serif;
+          background-color: #f5f9fd;
+        }
+        
+        .account-container {
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 20px;
+        }
+        
+        .account {
+          background-color: #fff;
+          padding: 20px;
+          border-radius: 10px;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .account h2 {
+          color: #1e73be;
+          font-size: 2rem;
+          margin-bottom: 20px;
+        }
+        
+        .account p {
+          margin-bottom: 10px;
+        }
+        
+        .account .account-details {
+          background-color: #f0f4f7;
+          padding: 15px;
+          margin-bottom: 20px;
+          border-radius: 8px;
+        }
+        
+        .account button {
+          background-color: #1e73be;
+          color: white;
+          border: none;
+          padding: 10px 20px;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+        
+        .account button:hover {
+          background-color: #155a9a;
+        }
+        </style>
+    <!-- Account Page -->
+     <form action="/server">
+<div class="account" >
+    <h2>My Account</h2>
+    
+    <h3>Profile Details:</h3>
+    <p><strong>Name:</strong><input type="text" required></p>
+    <p><strong>Email:</strong> <input type="text" required></p>
+    <button type="submit">submit</button>
+  </form >
+    <button type="button">Edit Profile</button>
+    
+    <h3>Survey History:</h3>
+    <ul>
+      <li>Survey on Fashion Trends - 00 Points</li>
+      <li>Customer Experience Survey - 00 Points</li>
+    </ul>
+    
+    <h3>Total Points: <strong>00</strong></h3>
+  </div>
+  
+</body>
+</html>

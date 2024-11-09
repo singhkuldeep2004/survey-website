@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  header {
+    background: #007bff;
+    padding: 20px;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .dashboard-header {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+  }
+  
+  .survey-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .card-title {
+    color: #007bff;
+  }
+  
+  footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .app-links img {
+    height: 40px;
+    margin: 10px;
+  }
+  
